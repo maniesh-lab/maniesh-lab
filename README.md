@@ -4,8 +4,7 @@ Self-taught Python developer in Nepal, building backend automation, web scrapers
 
 I ship end-to-end: FastAPI backends, RAG chatbots, scraping pipelines, and CSV/data-processing tools for small businesses. Every project is one I can walk through line by line — no black boxes.
 
-- 🔭 **Currently building:** [Steadfast](https://github.com/maniesh-lab/steadfast) — a reusable Python reliability layer for LLM APIs (retries, rate limiting, structured logging)
-- ✅ **Shipped:**  [ragdocs](https://github.com/maniesh-lab/ragdocs) (RAG chatbot, FastAPI + Chroma + Streamlit)  ·  [Hearth (Discord bot)](https://github.com/maniesh-lab/Hearth)  ·  [leadhound](https://github.com/maniesh-lab/leadhound) (Scrapy lead scraper)
+- ✅ **Shipped:** [Steadfast](https://github.com/maniesh-lab/steadfast) — a reusable Python reliability layer for LLM APIs (retries, rate limiting, structured logging) ·  [ragdocs](https://github.com/maniesh-lab/ragdocs) (RAG chatbot, FastAPI + Chroma + Streamlit)  ·  [Hearth (Discord bot)](https://github.com/maniesh-lab/Hearth)  ·  [leadhound](https://github.com/maniesh-lab/leadhound) (Scrapy lead scraper)
 - 💼 **Building a freelance track record on Upwork** — Python · FastAPI · Pandas · BeautifulSoup/Playwright
 - 🌱 **Always shipping something new**
 
