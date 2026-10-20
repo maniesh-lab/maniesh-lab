@@ -1,4 +1,4 @@
-# Hi, I'm Manish 👋
+# Hi, I'm Manish
 
 Self-taught Python developer building backend automation, data pipelines,
 and RAG chatbots. I focus on shipping things I can explain end to end — no
@@ -6,7 +6,7 @@ black boxes, mine included.
 
 ---
 
-## 🔧 What I'm building
+## What I'm building
 
 A lead-gen automation pipeline, one stage at a time — each stage is its own
 shipped repo:
@@ -23,15 +23,17 @@ Next: an agentic scoring layer on top of Switchyard's output.
 
 ---
 
-## 💼 Currently
+## Currently
 
 Building a freelance track record on Upwork — Python, FastAPI, Pandas,
-BeautifulSoup/Playwright, and now n8n/Docker for automation work.
+Scrapy, BeautifulSoup/Playwright, and now n8n/Docker for automation work.
 
-## 📫 Reach me
+## Reach me
+
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manishpandeya37@gmail.com)
 
-## 🛠️ Tech Stack
+## Tech Stack
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
@@ -41,6 +43,8 @@ BeautifulSoup/Playwright, and now n8n/Docker for automation work.
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Scrapy](https://img.shields.io/badge/scrapy-%2360A839.svg?style=for-the-badge&logo=scrapy&logoColor=white)
+![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
