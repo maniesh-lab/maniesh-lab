@@ -14,7 +14,7 @@ A chatbot agent that **looks things up before it answers**. It searches policy d
 - **LangGraph** agent with tool calling, memory and a step cap
 - **Hybrid search** (pgvector + keyword + reranker) and a read-only, locked-down SQL tool
 - **Evals with real numbers**: 40/41 on the main set, 15/15 on a set of trap and reasoning questions
-- **Production basics**: FastAPI, Docker Compose, CI, 93% test coverage, Langfuse tracing
+- **Production basics**: FastAPI, Docker Compose, CI, 92% test coverage, Langfuse tracing
 - A chat page with sources, light and dark mode, and a stop button
 
 <br clear="right">
