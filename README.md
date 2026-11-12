@@ -26,13 +26,12 @@ A chatbot agent that **looks things up before it answers**. It searches policy d
 | Project | What it does | Built with |
 |---|---|---|
 | [lookup-agent](https://github.com/maniesh-lab/lookup-agent) | AI agent over documents, a database and a live API, with sources and evals | LangGraph, FastAPI, Postgres + pgvector, Docker |
+| [leadgate](https://github.com/maniesh-lab/leadgate) | Lead generation with a human in charge: agents find local businesses, read their sites, clean, dedupe and score each lead, and nothing reaches the CRM until a person approves it. [Live demo](https://leadgate-ocu8.onrender.com) | LangGraph, FastAPI, Postgres, React, n8n |
+| [askfirst](https://github.com/maniesh-lab/askfirst) | AI agents that ask before they act: a browser agent that fills forms and stops for review before submitting, plus a scheduled GitHub issue-triage bot | LangGraph, Playwright, GitHub Actions |
 | [Steadfast](https://github.com/maniesh-lab/steadfast) | Reliability layer for LLM APIs: retries, rate limits, provider fallback, tool calling, validate-and-retry. On PyPI as `steadfast-llm` | Python, Pydantic, httpx |
 | [ragdocs](https://github.com/maniesh-lab/ragdocs) | RAG chatbot for your documents, with an eval layer | FastAPI, Chroma, Streamlit |
-| [leadhound](https://github.com/maniesh-lab/leadhound) | Scrapy scraper pulling real estate agent listings | Scrapy, Python |
 | [Switchyard](https://github.com/maniesh-lab/Switchyard) | n8n workflow that cleans, dedupes and scores leads, then lands them in Airtable | n8n, Docker |
 | [Hearth](https://github.com/maniesh-lab/Hearth) | Discord bot for onboarding, moderation and a server-specific FAQ | Python |
-
-**Next up:** a full-stack lead-gen agent platform that turns leadhound and Switchyard into a multi-agent pipeline with a human-approval step.
 
 ---
 
