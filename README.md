@@ -30,7 +30,6 @@ A chatbot agent that **looks things up before it answers**. It searches policy d
 | [askfirst](https://github.com/maniesh-lab/askfirst) | AI agents that ask before they act: a browser agent that fills web forms and stops for your approval before it submits, plus a scheduled GitHub issue-triage bot that posts a Discord digest and only proposes anything public. 282 tests, 93% coverage. [Live practice site](https://askfirst-practice.onrender.com) | LangGraph, Playwright, GitHub Actions, Docker |
 | [Steadfast](https://github.com/maniesh-lab/steadfast) | Reliability layer for LLM APIs: retries, rate limits, provider fallback, tool calling, validate-and-retry. On PyPI as `steadfast-llm` | Python, Pydantic, httpx |
 | [ragdocs](https://github.com/maniesh-lab/ragdocs) | RAG chatbot for your documents, with an eval layer | FastAPI, Chroma, Streamlit |
-| [Switchyard](https://github.com/maniesh-lab/Switchyard) | The n8n side of leadgate: starts lead runs on demand or on a schedule, and receives the results when a person has decided every lead | n8n, Docker, webhooks |
 | [Hearth](https://github.com/maniesh-lab/Hearth) | Discord bot that runs a community server: onboarding, self-serve roles, moderation with a mod log, a deadline board and respect points, plus an AI FAQ that answers from the server's own docs instead of matching keywords | discord.py, Gemini embeddings, Groq, SQLite |
 
 ---
