@@ -5,6 +5,23 @@ I ship things I can explain end to end, with tests, evals and docs. No black box
 
 ---
 
+## Featured: [leadgate](https://github.com/maniesh-lab/leadgate)
+
+<a href="https://github.com/maniesh-lab/leadgate"><img src="https://raw.githubusercontent.com/maniesh-lab/leadgate/main/docs/demo.gif" alt="leadgate's approval queue: reviewing a lead's score breakdown and approving it" width="420" align="right"></a>
+
+Lead lists found and checked by AI agents, and **nothing reaches the CRM until a person approves it**. Give it a niche and a city ("dentist", "Austin, TX"): it pulls the businesses from OpenStreetMap, Google Places or a CSV, reads each one's website, cleans, dedupes and scores every lead, then waits for a human.
+
+- **LangGraph** graph per lead, with an approval gate that can wait for hours
+- **Crash-safe**: a checkpoint after every step in Postgres; kill the worker anywhere and it carries on, with no step run twice
+- **The LLM can't invent data**: any value not in the source or on the website is sent back, and scores come from your rubric (the LLM only explains them)
+- **Real numbers**: emails right on 30/30 real dentists in the extraction eval; every SQL index measured with `EXPLAIN ANALYZE` on 50k leads
+- **Production basics**: FastAPI, a React dashboard, a Postgres job queue, Airtable, Discord and n8n, an audit log that can't be edited, and CI with an end-to-end test
+- [Live demo](https://leadgate-ocu8.onrender.com): log in with the demo button and work the approval queue
+
+<br clear="right">
+
+---
+
 ## Featured: [lookup-agent](https://github.com/maniesh-lab/lookup-agent)
 
 <a href="https://github.com/maniesh-lab/lookup-agent"><img src="https://raw.githubusercontent.com/maniesh-lab/lookup-agent/main/docs/images/demo.gif" alt="lookup-agent answering questions with its sources" width="420" align="right"></a>
@@ -25,8 +42,8 @@ A chatbot agent that **looks things up before it answers**. It searches policy d
 
 | Project | What it does | Built with |
 |---|---|---|
-| [lookup-agent](https://github.com/maniesh-lab/lookup-agent) | AI agent over documents, a database and a live API, with sources and evals | LangGraph, FastAPI, Postgres + pgvector, Docker |
 | [leadgate](https://github.com/maniesh-lab/leadgate) | Lead generation with a human in charge: agents find local businesses, read their sites, clean, dedupe and score each lead, and nothing reaches the CRM until a person approves it. [Live demo](https://leadgate-ocu8.onrender.com) | LangGraph, FastAPI, Postgres, React, n8n |
+| [lookup-agent](https://github.com/maniesh-lab/lookup-agent) | AI agent over documents, a database and a live API, with sources and evals | LangGraph, FastAPI, Postgres + pgvector, Docker |
 | [askfirst](https://github.com/maniesh-lab/askfirst) | AI agents that ask before they act: a browser agent that fills web forms and stops for your approval before it submits, plus a scheduled GitHub issue-triage bot that posts a Discord digest and only proposes anything public. 282 tests, 93% coverage. [Live practice site](https://askfirst-practice.onrender.com) | LangGraph, Playwright, GitHub Actions, Docker |
 | [Steadfast](https://github.com/maniesh-lab/steadfast) | Reliability layer for LLM APIs: retries, rate limits, provider fallback, tool calling, validate-and-retry. On PyPI as `steadfast-llm` | Python, Pydantic, httpx |
 | [ragdocs](https://github.com/maniesh-lab/ragdocs) | RAG chatbot for your documents, with an eval layer | FastAPI, Chroma, Streamlit |
